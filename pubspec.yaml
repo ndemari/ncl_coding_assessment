@@ -1,0 +1,33 @@
+name: ncl_coding_assessment
+description: NCL Coding Assessment
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  bloc: ^8.0.3
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+  flutter_localizations:
+    sdk: flutter
+  flutter_spinkit: ^5.1.0
+  intl: ^0.17.0
+  lottie: ^1.3.0
+  retrofit: ^3.0.1+1
+
+dev_dependencies:
+  bloc_test: ^9.0.3
+  build_runner: ^2.1.11
+  flutter_test:
+    sdk: flutter
+  mocktail: ^0.3.0
+  retrofit_generator: ^4.0.1
+  very_good_analysis: ^3.0.0
+  json_serializable: '>4.4.0'
+
+flutter:
+  uses-material-design: true
+  generate: true
